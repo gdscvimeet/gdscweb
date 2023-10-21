@@ -1,7 +1,7 @@
 # GDSCViMEET Website
 
 We are currently building a website for the GDSC of our college and would like you all to contribute towards it.
-<h1 align="center"> 🎃 HacktoberFest-2022 🎃</h1>
+<h1 align="center"> 🎃 HacktoberFest-2023 🎃</h1>
 
 ![Opensource](https://img.shields.io/badge/openSource-%E2%9D%A4-blue) ![PR](https://img.shields.io/badge/PRs-welcome-green) ![hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2022-red) ![friendly](https://img.shields.io/badge/beginner-friendly-l)
 
