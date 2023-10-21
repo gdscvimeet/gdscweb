@@ -1,76 +1,50 @@
-body{
+/* Body Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    background: #ffccff;
 }
-.box{
-    width: 300px;
-    padding: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #191919;
+
+/* Form Container Styles */
+.box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     text-align: center;
-    border-radius: 50px;
-    box-shadow: 10px 10px 20px #000000;
 }
-.box h1{
-    color: white;
-    text-transform: uppercase;
-    font-weight: 300px;
+
+/* Title Styles */
+h1 {
+    color: #333;
 }
-.box input[type="text"]{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #800080;
-    padding: 14px 10px;
-    width: 200px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    transition: 0.25s;
+
+/* Input Field Styles */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
-.box input[type="password"]{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #990099;
-    padding: 14px 10px;
-    width: 200px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    transition: 0.25s;
-}
-.box input[type="text"]:focus{
-    width: 280px;
-    border-color: #ff99ff;
-}
-.box input[type="password"]:focus{
-    width: 280px;
-    border-color: #ff99ff;
-}
-.box input[type="submit"]{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #990099;
-    padding: 14px 40px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    transition: 0.25s; 
+
+/* Submit Button Styles */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
-.box input[type="submit"]:hover{
-    background: #ff99ff;
+
+/* Submit Button Hover Effect */
+input[type="submit"]:hover {
+    background-color: #0056b3;
 }
